@@ -13,7 +13,7 @@ export default function Login() {
       if (user.role === "mentor") {
         navigate("/dashboard");
       } else if (user.role === "intern") {
-        navigate("/my-tasks");
+        navigate("/dashboard");
       } else {
         navigate("/dashboard"); // fallback
       }
