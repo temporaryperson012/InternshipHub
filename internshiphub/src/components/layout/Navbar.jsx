@@ -27,7 +27,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 hover:text-accent transition">
           <AcademicCapIcon className="h-7 w-7 text-accent" />
-          <span className="font-bold text-xl">InternshipHub</span>
+          <span className="font-bold text-xl">Intern Book</span>
         </Link>
         
         {/* Desktop Links */}
